@@ -16,7 +16,7 @@ shadowsocks:
     - ./storage/shadowsocks/config:/etc/shadowsocks
 
 tor:
-  build: ./Dockerfile/docker-tor
+  build: ./Dockerfile/tor
   links:
     - shadowsocks
   volumes:
