@@ -6,6 +6,11 @@ Counterforce
 ## Legend
 ![Legend](./legend.png)
 
+Counterforce provides 3 way to access Internet:
+
+* Normal Access.
+* Shadowsocks Access (for chinese)
+* Tor Access (Because tor is blocked in China, so I have to use shadowsocks as a proxy for it)
 
 ## How to use
 1. Configure the configuration file of shadowsocks (`storage/shadowsocks/config/config.json`)
