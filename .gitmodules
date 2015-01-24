@@ -1,0 +1,3 @@
+[submodule "Dockerfile/tor"]
+	path = Dockerfile/tor
+	url = git@github.com:docker-parasites/docker-tor.git
