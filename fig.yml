@@ -1,5 +1,8 @@
+# Counterforce
+#   I just want to be a person with all the rights that I should own.
+
 privoxy:
-  image: privoxy
+  build: ./Dockerfile/privoxy
   ports:
     - "8118:8118"
   links:
