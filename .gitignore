@@ -1,0 +1,12 @@
+# Created by http://www.gitignore.io
+
+### Emacs ###
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+.\#*
+
+
+/storage/shadowsocks/config/config.json
+
+

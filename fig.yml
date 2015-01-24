@@ -1,0 +1,23 @@
+privoxy:
+  image: privoxy
+  ports:
+    - "8118:8118"
+  links:
+    - shadowsocks
+    - tor
+  volumes:
+    - ./storage/privoxy/config:/etc/privoxy
+    - ./storage/privoxy/log:/var/log/privoxy
+
+shadowsocks:
+  image: shadowsocks
+  command: ss-local
+  volumes:
+    - ./storage/shadowsocks/config:/etc/shadowsocks
+
+tor:
+  build: ./Dockerfile/docker-tor
+  links:
+    - shadowsocks
+  volumes:
+    - ./storage/tor/config:/etc/tor

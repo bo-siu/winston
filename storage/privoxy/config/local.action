@@ -1,0 +1,104 @@
+###############################
+# Privoxy Rules for Freedom.
+###############################
+{{alias}}
+direct   = +forward-override{forward .}
+goagent  = +forward-override{forward 127.0.0.1:8087}
+tor      = +forward-override{forward-socks5t tor:9050 .}
+ss       = +forward-override{forward-socks5t shadowsocks:1080 .}
+ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
+
+{direct}
+/
+
+{tor}
+# Baidu sucks.
+.baidu.com
+.baidustatic.com
+
+# Youku Sucks.
+.youku.com
+
+# Sohu Sucks.
+.sohu.com
+
+# Tencent sucks.
+.qq.com
+.imqq.com
+.soso.com
+
+{ss}
+# Blog
+.blogspot.*
+.blogspot.com.*
+.blogger.com
+.hidemyass.com:80
+
+# Social Networks
+.fackbook.com
+.twitter.com
+.flickr.com
+
+# Code community
+.suckless.org
+.sourceforge.net
+.sf.net
+.bitbucket.org
+.github.com
+.puppetlabs.com
+.docker.com
+.zendesk.com
+.kbd-project.org
+
+# Linux Distro
+.exherbo.org
+.funtoo.org
+.archlinux.org
+
+# Google
+.google.com
+.youtube.com
+.ytimg.com
+.ggpht.com
+.google-analytics.com
+.gstatic.com
+.gmail.com
+
+# DuckDuckGo
+.duckduckgo.com
+
+# Font and APIs
+.typekit.net
+.googleapis.com
+.cloudfont.net
+
+# Security
+.openvpn.net
+.shadowsocks.org
+.shadowsocks.net
+.torproject.org
+
+# Misc
+.4cdn.org
+.4chan.org
+.wp.com
+.wordpress.com
+.gravatar.com
+
+
+{+block}
+# Dict.cn ads
+cdn.dfile.cn/slot/
+
+# Stupid China United Telecommunications Co. Ltd.
+.wo.com.cn
+
+
+# Fucking AD.
+.kejet.net
+.doubleclick.net
+.googletagservices.com
+.tanx.com
+
+{-block}
+# Misc
