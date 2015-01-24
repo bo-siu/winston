@@ -6,7 +6,7 @@ Counterforce
 ## Legend
 ![Legend](./legend.png)
 
-Counterforce provides 3 way to access Internet:
+Counterforce provides 3 ways to access Internet:
 
 * Normal Access.
 * Shadowsocks Access (for chinese)
