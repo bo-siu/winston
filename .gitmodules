@@ -1,3 +1,6 @@
 [submodule "Dockerfile/tor"]
 	path = Dockerfile/tor
 	url = git@github.com:docker-parasites/docker-tor.git
+[submodule "Dockerfile/shadowsocks"]
+	path = Dockerfile/shadowsocks
+	url = git@github.com:docker-parasites/docker-shadowsocks-go.git

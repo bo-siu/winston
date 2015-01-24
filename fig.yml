@@ -10,7 +10,7 @@ privoxy:
     - ./storage/privoxy/log:/var/log/privoxy
 
 shadowsocks:
-  image: shadowsocks
+  build: ./Dockerfile/shadowsocks
   command: ss-local
   volumes:
     - ./storage/shadowsocks/config:/etc/shadowsocks
