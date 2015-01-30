@@ -13,20 +13,6 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 
 {tor}
 *.onion
-# Baidu sucks.
-.baidu.com
-.baidustatic.com
-
-# Youku Sucks.
-.youku.com
-
-# Sohu Sucks.
-.sohu.com
-
-# Tencent sucks.
-.qq.com
-.imqq.com
-.soso.com
 
 {ss}
 # Blog
@@ -94,12 +80,29 @@ cdn.dfile.cn/slot/
 # Stupid China United Telecommunications Co. Ltd.
 .wo.com.cn
 
-
 # Fucking AD.
 .kejet.net
 .doubleclick.net
 .googletagservices.com
 .tanx.com
+
+# Baidu sucks.
+.baidu.com
+.baidustatic.com
+
+# Youku Sucks.
+.youku.com
+
+# Sohu Sucks.
+.sohu.com
+
+# Tencent sucks.
+.qq.com
+.imqq.com
+.soso.com
+
+# Shopping Mall that should be fucked.
+.jd.com
 
 {-block}
 # Misc
