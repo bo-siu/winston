@@ -62,6 +62,7 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 .program-think.blogspot.com
 .lxc.cc
 .gfw.me
+.felixcat.net
 
 # Font and APIs
 .typekit.net
