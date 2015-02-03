@@ -73,6 +73,8 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 .shadowsocks.org
 .shadowsocks.net
 .torproject.org
+.ip-check.info
+.anonymous-proxy-server.net
 
 # Cracker
 
@@ -82,6 +84,7 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 .wp.com
 .wordpress.com
 .gravatar.com
+.greatfire.org
 
 {+block}
 # Dict.cn ads
@@ -109,13 +112,21 @@ cdn.dfile.cn/slot/
 # 360 sucks.
 .360.cn
 
+# Netease sucks.
+.163.com
+
 # Tencent sucks.
 .qq.com
 .imqq.com
 .soso.com
 
-# Shopping Mall that should be fucked.
+# CNNIC sucks.
+.cnnic.net.cn
+.cnnic.cn
+
+# Mall that should be fucked.
 .jd.com
+.dangdang.com
 
 {-block}
 # Misc
