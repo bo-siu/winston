@@ -26,7 +26,7 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 .twitter.com
 .flickr.com
 
-# Code community
+# programmer community
 .suckless.org
 .sourceforge.net
 .sf.net
@@ -44,6 +44,7 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 
 # Google
 .google.com
+.googleusercontent.com
 .youtube.com
 .ytimg.com
 .ggpht.com
@@ -53,6 +54,14 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 
 # DuckDuckGo
 .duckduckgo.com
+
+# License
+.creativecommons.org
+
+# Blog
+.program-think.blogspot.com
+.lxc.cc
+.gfw.me
 
 # Font and APIs
 .typekit.net
@@ -65,13 +74,14 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 .shadowsocks.net
 .torproject.org
 
+# Cracker
+
 # Misc
 .4cdn.org
 .4chan.org
 .wp.com
 .wordpress.com
 .gravatar.com
-
 
 {+block}
 # Dict.cn ads
@@ -95,6 +105,9 @@ cdn.dfile.cn/slot/
 
 # Sohu Sucks.
 .sohu.com
+
+# 360 sucks.
+.360.cn
 
 # Tencent sucks.
 .qq.com
