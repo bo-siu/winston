@@ -15,6 +15,9 @@ privoxy:
 shadowsocks:
   build: ./Dockerfile/shadowsocks
   command: ss-local
+  # ;)
+  ports:
+    - "1080:1080"
   volumes:
     - ./storage/shadowsocks/config:/etc/shadowsocks
 
