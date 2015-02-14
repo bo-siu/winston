@@ -15,54 +15,11 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 *.onion
 
 {ss}
-# Blog
+## Blog
 .blogspot.*
 .blogspot.com.*
 .blogger.com
 .hidemyass.com:80
-
-# Social Networks
-.fackbook.com
-.twitter.com
-.flickr.com
-
-# PHP
-.getcomposer.org
-
-# programmer community
-.suckless.org
-.sourceforge.net
-.sf.net
-.bitbucket.org
-.github.com
-.puppetlabs.com
-.docker.com
-.zendesk.com
-.kbd-project.org
-
-# Linux Distro
-.exherbo.org
-.funtoo.org
-.archlinux.org
-
-# Google
-.google.com
-.googleusercontent.com
-.googlevideo.com
-.youtube.com
-.ytimg.com
-.ggpht.com
-.google-analytics.com
-.gstatic.com
-.gmail.com
-
-# DuckDuckGo
-.duckduckgo.com
-
-# License
-.creativecommons.org
-
-# Blog
 .blogblog.com
 .program-think.blogspot.com
 .lcx.cc
@@ -70,28 +27,78 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 .felixcat.net
 .jwz.org
 
+## Social Networks
+.fackbook.com
+.twitter.com
+.flickr.com
+
+## PHP
+# composer is a tool for dependency management in PHP
+.getcomposer.org
+# PHP package archivist for composer
+.packagist.org
+
+# Programmer Community
+.suckless.org
+.kbd-project.org
+
+## Code
+.github.com
+.sourceforge.net
+.sf.net
+.bitbucket.org
+
+## Tech
+.puppetlabs.com
+.docker.com
+.zendesk.com
+
+# Linux Distribution
+.funtoo.org
+.exherbo.org
+.archlinux.org
+
+## Google
+.google.com
+.googleusercontent.com
+.googlevideo.com
+.youtube.com
+.ytimg.com
+.ggpht.com
+.googleapis.com
+.google-analytics.com
+.gstatic.com
+.gmail.com
+
+# Other Search Engine
+.duckduckgo.com
+
+# License
+.creativecommons.org
+
 # Font and APIs
 .typekit.net
-.googleapis.com
 .cloudfont.net
 
-# Security
+## Network
+# encrypt network
 .openvpn.net
 .shadowsocks.org
 .shadowsocks.net
 .torproject.org
+# tools
 .ip-check.info
 .anonymous-proxy-server.net
+# anti-GFW
+.greatfire.org
 
-# Cracker
-
-# Misc
+## Misc
+# 4chan
 .4cdn.org
 .4chan.org
+# wordpress
 .wp.com
 .wordpress.com
 .gravatar.com
-.greatfire.org
 
 {-block}
-# Misc
