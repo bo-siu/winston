@@ -26,6 +26,9 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 .twitter.com
 .flickr.com
 
+# PHP
+.getcomposer.org
+
 # programmer community
 .suckless.org
 .sourceforge.net
@@ -45,6 +48,7 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 # Google
 .google.com
 .googleusercontent.com
+.googlevideo.com
 .youtube.com
 .ytimg.com
 .ggpht.com
@@ -59,10 +63,12 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 .creativecommons.org
 
 # Blog
+.blogblog.com
 .program-think.blogspot.com
-.lxc.cc
+.lcx.cc
 .gfw.me
 .felixcat.net
+.jwz.org
 
 # Font and APIs
 .typekit.net
@@ -86,48 +92,6 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 .wordpress.com
 .gravatar.com
 .greatfire.org
-
-{+block}
-# Dict.cn ads
-cdn.dfile.cn/slot/
-
-# Stupid China United Telecommunications Co. Ltd.
-.wo.com.cn
-
-# Fucking AD.
-.kejet.net
-.doubleclick.net
-.googletagservices.com
-.tanx.com
-
-# Baidu sucks.
-.baidu.com
-.baidustatic.com
-
-# Youku Sucks.
-.youku.com
-
-# Sohu Sucks.
-.sohu.com
-
-# 360 sucks.
-.360.cn
-
-# Netease sucks.
-.163.com
-
-# Tencent sucks.
-.qq.com
-.imqq.com
-.soso.com
-
-# CNNIC sucks.
-.cnnic.net.cn
-.cnnic.cn
-
-# Mall that should be fucked.
-.jd.com
-.dangdang.com
 
 {-block}
 # Misc

@@ -2073,4 +2073,5 @@ socket-timeout 300
 #
 #
 debug 66561
-actionsfile local.action
+actionsfile local.forward.action
+actionsfile local.block.action
