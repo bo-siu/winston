@@ -14,6 +14,6 @@ Counterforce provides 3 ways to access Internet:
 
 ## How to use
 1. Configure the configuration file of shadowsocks (`storage/shadowsocks/config/config.json`)
-2. Install [fig](http://www.fig.sh/)
-3. `fig up -d`
+2. Install [docker-compose](https://docs.docker.com/compose/)
+3. `docker-compose up -d`
 4. Use `localhost:8118` as your proxy.
