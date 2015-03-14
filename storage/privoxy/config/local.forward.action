@@ -32,28 +32,25 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 .twitter.com
 .flickr.com
 
-## PHP
-# composer is a tool for dependency management in PHP
-.getcomposer.org
-# PHP package archivist for composer
-.packagist.org
-
-# Programmer Community
+## Programmer Community
 .suckless.org
 .kbd-project.org
 
-## Code
+## Code Hosting
 .github.com
 .sourceforge.net
 .sf.net
 .bitbucket.org
 
+## Cloud Hosting
+.digitalocean.com
+.ssl.fastly.net
+
 ## Tech
 .puppetlabs.com
 .docker.com
-.zendesk.com
 
-# Linux Distribution
+## Linux Distribution
 .funtoo.org
 .exherbo.org
 .archlinux.org
@@ -70,35 +67,32 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 .gstatic.com
 .gmail.com
 
-# Other Search Engine
+## Search Engine
 .duckduckgo.com
 
-# License
-.creativecommons.org
-
-# Font and APIs
+## Font and APIs
 .typekit.net
 .cloudfont.net
 
+## License
+.creativecommons.org
+
 ## Network
-# encrypt network
+# classified network
 .openvpn.net
+.torproject.org
+# Proxy
 .shadowsocks.org
 .shadowsocks.net
-.torproject.org
+# anti-GFW
+.greatfire.org
 # tools
 .ip-check.info
 .anonymous-proxy-server.net
-# anti-GFW
-.greatfire.org
 
 ## Misc
 # 4chan
-.4cdn.org
 .4chan.org
-# wordpress
-.wp.com
-.wordpress.com
-.gravatar.com
+.4cdn.org
 
 {-block}
