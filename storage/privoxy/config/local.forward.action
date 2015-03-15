@@ -35,6 +35,7 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 ## Programmer Community
 .suckless.org
 .kbd-project.org
+.gitbook.com
 
 ## Code Hosting
 .github.com
@@ -51,7 +52,6 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 .docker.com
 
 ## Linux Distribution
-.funtoo.org
 .exherbo.org
 .archlinux.org
 
