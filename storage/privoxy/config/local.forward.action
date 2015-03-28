@@ -26,11 +26,14 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 .gfw.me
 .felixcat.net
 .jwz.org
+.miguelgrinberg.com
 
 ## Social Networks
 .fackbook.com
 .twitter.com
 .flickr.com
+.flask.pocoo.org
+.python.org
 
 ## Programmer Community
 .suckless.org
@@ -67,12 +70,15 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 .gstatic.com
 .gmail.com
 
-## Search Engine
+## Other Search Engine
 .duckduckgo.com
 
 ## Font and APIs
 .typekit.net
 .cloudfont.net
+
+## Tools
+.aircrack-ng.org
 
 ## License
 .creativecommons.org
