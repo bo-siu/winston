@@ -13,13 +13,13 @@ privoxy:
     - ./storage/privoxy/log:/var/log/privoxy
 
 shadowsocks:
-  build: ./Dockerfile/shadowsocks
+  image: m31271n/shadowsocks-go
   command: ss-local
-  # ;)
   ports:
+    # specify the port according the configuration file 'config.json'
     - "1080:1080"
   volumes:
-    - ./storage/shadowsocks/config:/etc/shadowsocks
+    - ./config/shadowsocks/config.json:/etc/shadowsocks/config.json
 
 tor:
   build: ./Dockerfile/tor
