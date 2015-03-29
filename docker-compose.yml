@@ -22,8 +22,8 @@ shadowsocks:
     - ./config/shadowsocks/config.json:/etc/shadowsocks/config.json
 
 tor:
-  build: ./Dockerfile/tor
+  image: m31271n/tor
   links:
     - shadowsocks
   volumes:
-    - ./storage/tor/config:/etc/tor
+    - ./config/tor:/etc/tor
