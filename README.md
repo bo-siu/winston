@@ -1,12 +1,13 @@
-Counterforce
-============
+Winston
+=======
+> Why name this with Winston? Winston is the leading role of '1984', that is why.
 
 > I just want to be a person with all the rights that I should own.
 
 ## Legend
 ![Legend](./legend.png)
 
-Counterforce provides 3 ways to access Internet:
+Winston provides 3 ways to access Internet:
 
 * Normal Access.
 * Shadowsocks Access (for chinese)
