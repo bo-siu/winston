@@ -7,7 +7,7 @@ Winston
 > I just want to be a person with all the rights that I should own.
 
 ## Legend
-![Legend](./winston.png)
+![Legend](./Winston.png)
 
 Winston provides 3 ways to access Internet:
 

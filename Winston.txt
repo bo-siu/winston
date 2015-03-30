@@ -1,0 +1,21 @@
+# This file is used to generate the legend
+# on https://www.websequencediagrams.com/
+title Winston
+
+User Application->+Privoxy: Request
+
+
+Privoxy->+Shadowsocks:
+Shadowsocks->+Internet:
+Internet-->-Shadowsocks:
+Shadowsocks-->-Privoxy:
+
+Privoxy->+Tor:
+Tor->+Internet:
+Internet-->-Tor:
+Tor->-Privoxy:
+
+Privoxy->+Internet:
+Internet-->-Privoxy:
+
+Privoxy-->-User Application: Response
