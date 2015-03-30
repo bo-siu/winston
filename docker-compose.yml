@@ -1,29 +1,28 @@
-# Counterforce
-#   I just want to be a person with all the rights that I should own.
+# Winston
 
 privoxy:
-  build: ./Dockerfile/privoxy
+  image: m31271n/privoxy:3.0.21
   ports:
     - "8118:8118"
   links:
     - shadowsocks
     - tor
   volumes:
-    - ./storage/privoxy/config:/etc/privoxy
-    - ./storage/privoxy/log:/var/log/privoxy
+    - ./config/privoxy/local.forward.action:/privoxy-rules/local.forward.action
+    - ./config/privoxy/local.block.action:/privoxy-rules/local.block.action
 
 shadowsocks:
-  image: m31271n/shadowsocks-go
-  command: ss-local
+  image: m31271n/shadowsocks-go:1.1.3
   ports:
     # specify the port according the configuration file 'config.json'
     - "1080:1080"
   volumes:
     - ./config/shadowsocks/config.json:/etc/shadowsocks/config.json
+  command: ss-local
 
 tor:
-  image: m31271n/tor
+  image: m31271n/tor:0.2.5.11
   links:
     - shadowsocks
   volumes:
-    - ./config/tor:/etc/tor
+    - ./config/tor/torrc:/etc/tor/torrc
