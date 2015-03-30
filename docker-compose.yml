@@ -13,9 +13,6 @@ privoxy:
 
 shadowsocks:
   image: m31271n/shadowsocks-go:1.1.3
-  ports:
-    # specify the port according the configuration file 'config.json'
-    - "1080:1080"
   volumes:
     - ./config/shadowsocks/config.json:/etc/shadowsocks/config.json
   command: ss-local
