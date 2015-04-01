@@ -2,7 +2,7 @@
 # on https://www.websequencediagrams.com/
 title Winston
 
-User Application->+Privoxy: Request
+User Application->+Privoxy:
 
 
 Privoxy->+Shadowsocks:
@@ -14,10 +14,10 @@ Privoxy->+Shadowsocks:
 Shadowsocks->+Tor:
 Tor->+Internet:
 Internet-->-Tor:
-Tor->-Shadowsocks:
+Tor-->-Shadowsocks:
 Shadowsocks-->-Privoxy:
 
 Privoxy->+Internet:
 Internet-->-Privoxy:
 
-Privoxy-->-User Application: Response
+Privoxy-->-User Application:
