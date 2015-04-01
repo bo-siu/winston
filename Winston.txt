@@ -10,10 +10,12 @@ Shadowsocks->+Internet:
 Internet-->-Shadowsocks:
 Shadowsocks-->-Privoxy:
 
-Privoxy->+Tor:
+Privoxy->+Shadowsocks:
+Shadowsocks->+Tor:
 Tor->+Internet:
 Internet-->-Tor:
-Tor->-Privoxy:
+Tor->-Shadowsocks:
+Shadowsocks-->-Privoxy:
 
 Privoxy->+Internet:
 Internet-->-Privoxy:
