@@ -24,7 +24,6 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 .program-think.blogspot.com
 .lcx.cc
 .gfw.me
-.felixcat.net
 .jwz.org
 .miguelgrinberg.com
 .angularjs.org
