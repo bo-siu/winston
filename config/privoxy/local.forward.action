@@ -27,6 +27,7 @@ ssh      = +forward-override{forward-socks5t 127.0.0.1:7070 .}
 .felixcat.net
 .jwz.org
 .miguelgrinberg.com
+.angularjs.org
 
 ## Social Networks
 .fackbook.com

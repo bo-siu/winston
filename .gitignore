@@ -4,8 +4,5 @@
 \#*\#
 .\#*
 
-/config/shadowsocks/config.json
-
-
-
-
+/config/shadowsocks/config.*
+!/config/shadowsocks/config.json.example
