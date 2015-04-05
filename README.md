@@ -18,16 +18,21 @@ Winston provides 3 ways to access Internet:
 * If you are read english, please read [Shadowsocks Tutorial](https://github.com/shadowsocks/shadowsocks/blob/master/README.md)
 * If you can read chinese, please read [Shadowsocks 使用说明](https://github.com/shadowsocks/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
+
 ### Step 2: Clone Winston
 
     git clone https://github.com/docker-parasites/winston.git
 
+
 ### Step 3: Set up config/shadowsocks/config.json
+
 `config/shadowsocks/config.json` is the key to connect Shadowsocks Server that you set up in Step 1.
+
     # Enter Winston
     cd Winston
     # Create 'config/shadowsocks/config.json' according to 'config/shadowsocks/config.json.example'
     nano config/shadowsocks/config.json
+
 
 ### Step 4: Use docker-compose to run Winston
 Install docker-compose according to [this article about docker-compose](https://docs.docker.com/compose/).
@@ -36,7 +41,8 @@ Install docker-compose according to [this article about docker-compose](https://
 
 After you run this command sucessfully, you will find localhost:8118 is exposed on you machine(Use `netstat -ntlp` to check it).
 
-### Step 5: Use localhost:8118 as your proxy.
+
+### Step 5: Set proxy
 
 For users who want to use Winston in their shell environment:
 
@@ -55,12 +61,9 @@ For users who what to use Winston in their web browser:
 
     # Just use 127.0.0.1:8118 as the proxy of the web browser
 
-### Step 6: Enjoy it.
-
-## I always said and will always say in the future
-
-> I just want to be a person with all the rights that I should own, including freedom.
 
 ## Last
 
 If you have any problem, please contact me(English or Chinese).
+
+> I just want to be a person with all the rights that I should own, including freedom.
